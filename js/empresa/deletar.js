@@ -1,5 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-class Deletar {
-}
+var Deletar = /** @class */ (function () {
+    function Deletar() {
+    }
+    return Deletar;
+}());
 exports.default = Deletar;

@@ -1,5 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-class Listagem {
-}
+var Listagem = /** @class */ (function () {
+    function Listagem() {
+    }
+    return Listagem;
+}());
 exports.default = Listagem;

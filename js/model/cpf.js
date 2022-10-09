@@ -1,15 +1,24 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-class CPF {
-    constructor(valor, dataEmissao) {
+var CPF = /** @class */ (function () {
+    function CPF(valor, dataEmissao) {
         this.valor = valor;
         this.dataEmissao = dataEmissao;
     }
-    get getValor() {
-        return this.valor;
-    }
-    get getDataEmissao() {
-        return this.dataEmissao;
-    }
-}
+    Object.defineProperty(CPF.prototype, "getValor", {
+        get: function () {
+            return this.valor;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(CPF.prototype, "getDataEmissao", {
+        get: function () {
+            return this.dataEmissao;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    return CPF;
+}());
 exports.default = CPF;
